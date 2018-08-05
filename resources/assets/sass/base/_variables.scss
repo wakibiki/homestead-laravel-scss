@@ -1,0 +1,37 @@
+// -------------------------------------------------------
+// custom variables and override bootstrap variables
+// -------------------------------------------------------
+
+$white: #fff;
+$black: #000;
+$gray: #8b8b8b;
+
+$font-path: "/assets/fonts";
+$icomoon-font-path: "#{$font-path}/icomoon";
+$image-path: "/assets/images";
+
+// font name
+$arial: 'Arial', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+
+// scaffolding
+$body-bg: $black;
+$text-color: $white;
+$link-color: $gray;
+$link-hover-color: $gray;
+$link-hover-decoration: none;
+
+// typography
+$font-family-sans-serif: $arial;
+$font-size-base: 18px;
+$line-height-base: 1.33;
+$font-size-h1: 52px;
+$font-size-h2: 42px;
+$font-size-h3: 30px;
+$font-size-h4: 17px;
+$font-size-h5: 16px;
+$font-size-h6: 14px;
+$headings-font-weight: 300;
+
+// container sizes
+$grid-gutter-width: 26px;
+$container-large-desktop: (1166px + $grid-gutter-width);
